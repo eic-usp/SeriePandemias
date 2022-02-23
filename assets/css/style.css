@@ -1,3 +1,51 @@
 *{
 background-color: #19BD9B;
 }
+.titulo-1{
+    margin-top: 0.7em;
+    margin-bottom: 0.1em;
+    position: absolute;
+    font-family: Unlock;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20vh;
+    line-height: 52px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    left: 40px;
+}
+.titulo-2{
+    color:seagreen;
+    font-family: Unlock;
+    font-size:6.7vh;
+    margin-top: 3.7em;
+    position:absolute;
+    left:40px
+}
+.titulo-3{
+    font-family: Unlock;
+    font-size: 8vh;
+    margin-top: 70vh;
+    position: absolute;
+    left: 20%;
+    color:aquamarine;
+}
+#logo-eic{
+    top:90%;
+    left:95%;
+    position: absolute;
+    width: 40px;
+}
+#play{
+    margin-top: 73vh;
+    position: absolute;
+    width: 50px;
+    color: #FFFFFF;
+    left:15%;
+}
+.btn-play{
+    border-width: 5px;
+    border-color:#FFFFFF;
+}
