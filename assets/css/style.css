@@ -59,6 +59,7 @@ background-color: #19BD9B;
     text-decoration: none;
 }
 #skip{
+    background-color: transparent;
     width: 50px;
     padding-left: 10px;
 }
@@ -89,6 +90,27 @@ background-color: #19BD9B;
     margin-top: 10%;
     color: aquamarine;
 }
+.titulo-7{
+    background-color: transparent;
+    color: black;
+    font-family: "Adumu";
+    font-size: 4vh;
+    top: 0%;
+    position:absolute;
+    left: 65%;
+    text-decoration: none;
+}
+.titulo-8{
+    background-color: transparent;
+    color: black;
+    font-family: "Adumu";
+    font-size: 4vh;
+    top: 0%;
+    position:absolute;
+    left: 9%;
+    text-decoration: none;
+}
+
 .btn-inicio{
     margin-top: 27%;
     position: absolute;
@@ -103,7 +125,15 @@ background-color: #19BD9B;
   margin-left: 10px;
 }
 .button{
+    text-align: center;
     background-color: #FFFFFF;
     height: 75px;
     border-radius: 40px;
+}
+.name{
+    color: black;
+    text-align: center;
+    margin-top: auto;
+    background-color: transparent;
+    text-decoration: none;
 }
