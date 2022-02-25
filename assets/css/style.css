@@ -1,7 +1,9 @@
 @import url(//db.onlinewebfonts.com/c/08aae9f020949051ff8331be100607cb?family=Archive);
 @import url(//db.onlinewebfonts.com/c/6be8b78f5eaa571c3fbf3a1908515cf6?family=Adumu);
 *{
-background-color: #19BD9B;
+    background-color: #19BD9B;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 .titulo-1{
     margin-top: 0.7em;
@@ -136,4 +138,42 @@ background-color: #19BD9B;
     margin-top: auto;
     background-color: transparent;
     text-decoration: none;
+}
+.titulo-10{
+    background-color: transparent;
+    color: black;
+    font-family: "Adumu";
+    font-size: 4vh;
+    position:relative;
+    text-decoration: none;
+}
+#img1{
+    width: 130px;
+    height: 130px;
+    margin-top: 15%;
+    margin-left:12%;
+    background-color: #FFFFFF;
+    border-radius: 20% ;
+}
+.bkg1{
+    background-color: #FFFFFF;
+    height: 180px;
+    width:180px;
+    border-radius: 50%;
+    margin-top: 50%;
+}
+#img2{
+    background-color: aquamarine;
+    border-radius: 160px;
+    width: 320px;
+}
+.fundo{
+   height: 100%;
+   width: 100%;
+   margin-top: 150px;
+}
+.ul{
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
