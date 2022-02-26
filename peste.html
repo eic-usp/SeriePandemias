@@ -7,29 +7,45 @@
     <title>Document</title>
     <link rel="stylesheet" href="/assets/bootstrap-5.0.2-dist/css/bootstrap.css">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/video.css">
 </head>
 <body>
     
-</body>
+    <!-- menu video -->
 
-    <div>
+    <div class="button button-next">
         <div class="row">
-            <div class="col">
-                <a class="titulo-7" href="covid.html">Ir para o próximo vídeo<img id="skip" src="assets/img/skip-forward-circle.svg"></a>
+            <div class="next">
+                <a class="titulo-7" href="covid.html">Ir para o próximo vídeo</a>
+                <a href="covid.html">                        <img id="skip" src="assets/img/skip-forward-circle.svg" width="25" height="25">
+                    </a>
             </div>
         </div>
-
-        <div class="row">
-            <div class="col">
-                <a class="titulo-8" href="MenuInicial.html">Voltar ao menu inicial<img id="back" src=""></a>
-            </div>
-        </div>
-
-        <video id="peste" width="100%" height="100%" autoplay>
-            <source src="/assets/videos/Pan7PesteNegra.mp4" type="video/mp4">
-        </video>
+    </div>
     
+    <div class="button button-back">
+        <div class="row">
+               <div class="inicio">
+                <a href="MenuInicial.html">
+                    <img src="/assets/img/list.png" width="25" height="25">
+                </a>
+                <a class="titulo-8" href="MenuInicial.html">Voltar ao menu inicial</a>
+            </div>
+        </div>
+    </div>
+        
+    <!-- HTML tag video -->
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <video class="video" id="peste" width="100%" height="100%" autoplay>
+                    <source src="/assets/videos/Pan7PesteNegra.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
     </div>
 
-    
+</body>
+        
 </html>

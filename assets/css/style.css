@@ -5,6 +5,10 @@
     background-size: 100%;
     background-repeat: no-repeat;
 }
+
+.body{
+    background-color: #19BD9B; 
+}
 .titulo-1{
     margin-top: 0.7em;
     margin-bottom: 0.1em;
@@ -60,11 +64,6 @@
     left:70%;
     text-decoration: none;
 }
-#skip{
-    background-color: transparent;
-    width: 50px;
-    padding-left: 10px;
-}
 .titulo-5{
     margin-top: 0.6em;
     margin-bottom: 0.1em;
@@ -92,27 +91,6 @@
     margin-top: 10%;
     color: aquamarine;
 }
-.titulo-7{
-    background-color: transparent;
-    color: black;
-    font-family: "Adumu";
-    font-size: 4vh;
-    top: 0%;
-    position:absolute;
-    left: 65%;
-    text-decoration: none;
-}
-.titulo-8{
-    background-color: transparent;
-    color: black;
-    font-family: "Adumu";
-    font-size: 4vh;
-    top: 0%;
-    position:absolute;
-    left: 9%;
-    text-decoration: none;
-}
-
 .btn-inicio{
     margin-top: 27%;
     position: absolute;
@@ -153,7 +131,14 @@
     margin-top: 15%;
     margin-left:12%;
     background-color: #FFFFFF;
-    border-radius: 20% ;
+    border-radius: 20%;
+}
+.menu-h{ /* img retorno menu */
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: #FFFFFF;
+    border-radius: 100%; 
 }
 .bkg1{
     background-color: #FFFFFF;

@@ -1,0 +1,80 @@
+@import url(//db.onlinewebfonts.com/c/08aae9f020949051ff8331be100607cb?family=Archive);
+@import url(//db.onlinewebfonts.com/c/6be8b78f5eaa571c3fbf3a1908515cf6?family=Adumu);
+*{
+    background-color: #19BD9B;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #19BD9B;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.video{
+    padding-bottom: 5%;
+}
+
+.button-next{
+    background-color: transparent;
+    width: 400px;
+    height: 40px;
+    position: absolute;
+    bottom: 2%;
+    left: 60%;
+    border-radius: 20%;
+
+}
+
+.button-back{
+    background-color: transparent;
+    width: 400px;
+    height: 40px;
+    position: absolute;
+    bottom: 2%;  
+    left: 10%;
+    border-radius: 20%;
+    
+}
+
+/* PRÓXIMO VÍDEO -------------------------------------------------------------------------- */
+
+.titulo-7{
+    background-color: transparent;
+    color: black;
+    font-family: "Adumu";
+    font-size: 4vh;
+    position: relative;
+    text-decoration: none; 
+}
+/*.next{
+    background-color: transparent;
+    color: black;  
+    position: absolute;
+    bottom: 0%;
+    left: 65%;
+}*/
+
+/* RETORNO MENU INICIAL --------------------------------------------------------------------- */
+
+.titulo-8{
+    background-color: transparent;
+    color: black;
+    font-family: "Adumu";
+    font-size: 4vh;    
+    position: relative;
+    text-decoration: none;
+}
+/*.inicio{
+    background-color: transparent;
+    color: black;  
+    position: absolute;
+    bottom: 0%;
+    left: 6%;
+}*/
