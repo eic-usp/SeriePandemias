@@ -17,52 +17,43 @@ body {
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
 .video{
-    padding-bottom: 5%;
+    margin-top: 2%;
+
 }
+
+/* ------------------------------------- PRÓXIMO VÍDEO ------------------------------------- */
 
 .button-next{
-    background-color: transparent;
-    width: 400px;
-    height: 40px;
+    background-color: #ECF0F3;
     position: absolute;
-    bottom: 2%;
-    left: 60%;
-    border-radius: 20%;
-
+    bottom: 1%;
+    right: 10%;
 }
-
-.button-back{
-    background-color: transparent;
-    width: 400px;
-    height: 40px;
-    position: absolute;
-    bottom: 2%;  
-    left: 10%;
-    border-radius: 20%;
-    
-}
-
-/* PRÓXIMO VÍDEO -------------------------------------------------------------------------- */
-
 .titulo-7{
     background-color: transparent;
     color: black;
     font-family: "Adumu";
     font-size: 4vh;
     position: relative;
-    text-decoration: none; 
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
-/*.next{
-    background-color: transparent;
-    color: black;  
+
+#skip{
+    background-color: #ECF0F3;
+
+/* ------------------------------------ RETORNO MENU INICIAL ------------------------------------ */
+}
+.button-back{
+    background-color: #ECF0F3;
     position: absolute;
-    bottom: 0%;
-    left: 65%;
-}*/
-
-/* RETORNO MENU INICIAL --------------------------------------------------------------------- */
-
+    bottom: 1%;  
+    left: 10%;
+}
 .titulo-8{
     background-color: transparent;
     color: black;
@@ -70,11 +61,10 @@ body {
     font-size: 4vh;    
     position: relative;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-/*.inicio{
-    background-color: transparent;
-    color: black;  
-    position: absolute;
-    bottom: 0%;
-    left: 6%;
-}*/
+#back{
+    background-color: #ECF0F3;
+}
