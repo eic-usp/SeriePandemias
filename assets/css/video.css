@@ -19,21 +19,27 @@ body {
 }
 
 .video{
-    margin-top: 2%;
+    padding: 5%;
+}
+.btn{
+    border-radius: 50px;
+    border: 2px solid aquamarine;
+    /*background-color: transparent;*/
+    width: 30%;
+    background: -webkit-radial-gradient(rgb(192, 250, 230), rgb(144, 253, 217), aquamarine);
+    position: absolute;
 
 }
 
 /* ------------------------------------- PRÓXIMO VÍDEO ------------------------------------- */
 
 .button-next{
-    background-color: #ECF0F3;
-    position: absolute;
     bottom: 1%;
     right: 10%;
 }
 .titulo-7{
     background-color: transparent;
-    color: black;
+    color: #1e7a65;
     font-family: "Adumu";
     font-size: 4vh;
     position: relative;
@@ -42,21 +48,19 @@ body {
     justify-content: center;
     align-items: center; 
 }
-
 #skip{
-    background-color: #ECF0F3;
+    background: rgb(144, 253, 217);
+}
 
 /* ------------------------------------ RETORNO MENU INICIAL ------------------------------------ */
-}
+
 .button-back{
-    background-color: #ECF0F3;
-    position: absolute;
     bottom: 1%;  
     left: 10%;
 }
 .titulo-8{
     background-color: transparent;
-    color: black;
+    color: #1e7a65;
     font-family: "Adumu";
     font-size: 4vh;    
     position: relative;
@@ -66,5 +70,5 @@ body {
     align-items: center;
 }
 #back{
-    background-color: #ECF0F3;
+    background: rgb(144, 253, 217);
 }
