@@ -74,13 +74,13 @@ body {
     text-decoration: none;
 }
 .titulo-5{
-    margin-top: 0.6em;
+    margin-top: 0.7em;
     margin-bottom: 0.1em;
     position: absolute;
     font-family: "Adumu";
     font-style: normal;
     font-weight: normal;
-    font-size: 18vh;
+    font-size: 18.5vh;
     line-height: 52px;
     display: flex;
     align-items: flex-end;
@@ -93,12 +93,13 @@ body {
 .titulo-6{
     left: 50%;
     font-family: "Adumu";
-    font-size: 5.6vh;
+    font-size: 5.9vh;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     position: absolute;
     margin-top: 10%;
     color: #B3F2CB;
+    margin-top: 4.6em;
 }
 .btn-inicio{
     margin-top: 27%;
@@ -111,22 +112,29 @@ body {
   font-family: Archive;
   width: 300px;
   margin-top: 30px;
-  margin-left: 10px;
-}
-.button{
-    text-align: center;
+  margin-left: 20px;
     background-color: #FFFFFF;
     height: 80px;
     border-radius: 40px;
     display: flex;
+    align-items: center; 
     justify-content: center;
-    align-items: center;
+    float: right;
+    display: "flexbox";
+    text-decoration: none;
+}
+.button{
+    background-color: #FFFFFF;
+    
 }
 .name{
     color: black;
+    margin-right: auto;
+    margin-left: 30px;
     text-align: center;
-    background-color: transparent;
-    text-decoration: none;
+    background-color: #FFFFFF;
+    position: relative;
+    font-size: 2.6vh;
 }
 .titulo-10{
     background-color: transparent;
@@ -229,7 +237,11 @@ body {
 .voltar{
     text-align: center;
 }
-#covid{
-    width: 40px;
-    background-color: #FFFFFF;
+.col-lg-auto img{
+    width: 72px;
+    height: 72px;
+    border-radius: 36px;
+    position:relative ;
+    margin-left: auto;
+    margin-right: 10px;
 }
