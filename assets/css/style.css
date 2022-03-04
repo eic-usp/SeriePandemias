@@ -69,16 +69,22 @@
     border: 10px solid #FFFFFF;
     border-radius: 70px; 
 }
-.titulo-4{
-    color: black;
+.titulo-4{ /* PULAR INTRODUÇÃO*/
+    background-color: transparent;
+    color: #1e7a65;
     font-family: "Adumu";
-    font-size:5vh;
-    top:90% ;
-    position:absolute;
-    left:70%;
+    font-size: 4vh;
+    position: relative;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
-.titulo-5{
+.button-intro{ /* PULAR INTRODUÇÃO*/
+    bottom: 1%;
+    right: 10%;
+}
+.titulo-5{ /* PANDEMIAS */
     margin-top: 0.7em;
     margin-bottom: 0.1em;
     position: absolute;
