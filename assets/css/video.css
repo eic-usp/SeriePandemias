@@ -26,7 +26,7 @@ body {
     border: 2px solid aquamarine;
     /*background-color: transparent;*/
     width: 30%;
-    background: -webkit-radial-gradient(rgb(192, 250, 230), rgb(144, 253, 217), aquamarine);
+    background:aquamarine;
     position: absolute;
 
 }
@@ -49,7 +49,10 @@ body {
     align-items: center; 
 }
 #skip{
-    background: rgb(144, 253, 217);
+    background-color: aquamarine;
+    width: 10%; 
+    height: 10%; 
+    padding-left: 2%; 
 }
 
 /* ------------------------------------ RETORNO MENU INICIAL ------------------------------------ */
@@ -70,5 +73,8 @@ body {
     align-items: center;
 }
 #back{
-    background: rgb(144, 253, 217);
+    background: aquamarine;
+    width: 10%; 
+    height: 10%;
+    padding-right: 2%; 
 }
