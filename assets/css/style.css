@@ -137,16 +137,16 @@
 }
 .button{
     background-color: #FFFFFF;
-    
+
+    -webkit-text-size-adjust: auto;
+    -webkit-box-sizing: auto;
 }
 .name{
     color: black;
     margin-right: auto;
     margin-left: 30px;
     text-align: center;
-    background-color: #FFFFFF;
     position: relative;
-    font-size: 2.6vh;
 }
 .titulo-10{
     background-color: transparent;
@@ -256,7 +256,4 @@
     position:relative ;
     margin-left: auto;
     margin-right: 10px;
-}
-#imgInicial{
-    
 }
