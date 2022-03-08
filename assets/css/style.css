@@ -6,16 +6,15 @@
     background-image: url("/assets/img/Design - Pandemias.png");
     background-color: #19BD9B;
     background-repeat: no-repeat;
-    background-size: 97vh;
-    background-position: 90% -2%;
+    background-size: 98vh;
+    background-position: 95% -2%;
 }
 .fundo2{
     background-color: #19BD9B;
 }
 .fundo {
-    margin: 0;
+    margin-top: 40px;
     font-family: var(--bs-font-sans-serif);
-    font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
@@ -24,13 +23,13 @@
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .titulo-1{
-    margin-top: 0.9em;
+    margin-top: 0.7em;
     margin-bottom: 0.1em;
     position: absolute;
     font-family: "Adumu";
     font-style: normal;
     font-weight: normal;
-    font-size: 22vh;
+    font-size: 17.5vh;
     line-height: 52px;
     display: flex;
     align-items: flex-end;
@@ -41,33 +40,31 @@
 .titulo-2{
     color: #1e7a65;
     font-family: "Adumu";
-    font-size:6.9vh;
-    margin-top: 5em;
+    font-size:5vh;
+    margin-top:4em;
     position:absolute;
-    left:60px
+    left:60px;
+    margin-left: 35px;
 }
 .titulo-3{
     font-family: "Adumu";
     font-size: 8vh;
-    margin-top: 70vh;
+    margin-top: 73vh;
     position: absolute;
-    left: 20%;
+    left: 15%;
     color:aquamarine;
 }
 #logo-eic{
     top:85%;
-    left:90%;
+    left:92%;
     position: absolute;
     width: 70px;
 }
 #play{
-    margin-top: 71vh;
+    margin-top: 32.5%;
+    left: -12%;
     position: absolute;
-    color: #FFFFFF;
-    left:14%;
-    width: 60px;
-    border: 10px solid #FFFFFF;
-    border-radius: 70px; 
+    width: 70%;
 }
 .titulo-4{ /* PULAR INTRODUÇÃO*/
     background-color: transparent;
@@ -109,45 +106,20 @@
     transform: translate(-50%, -50%);
     position: absolute;
     margin-top: 10%;
+    margin-bottom: 10%;
     color: #B3F2CB;
     margin-top: 4.6em;
 }
-.btn-inicio{
-    margin-top: 28%;
-    position: absolute;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+.btn-bloco{
+    width: 100%;
+    height: 400px;
 }
-.col-lg-auto{
-    font-family: Archive;
-    width: 260px;
-    margin-top: 40px;
-    margin-right: auto;
-    background-color: #FFFFFF;
-    height: 80px;
-    border-radius: 40px;
-    align-items: center; 
-    justify-content: space-around;
-    text-decoration: none;
-    display: flex;
+.col-lg-4 img{
+    float: left;
+    width:100vh;
+    height: 100vh;
 }
-.col1{
-    margin-right: 65px;
-}
-.button{
-    background-color: #FFFFFF;
 
-    -webkit-text-size-adjust: auto;
-    -webkit-box-sizing: auto;
-}
-.name{
-    color: black;
-    margin-right: auto;
-    margin-left: 30px;
-    text-align: center;
-    position: relative;
-}
 .titulo-10{
     background-color: transparent;
     color: black;
@@ -230,30 +202,12 @@
     left: 125px;
     font-size: 4.5vh;
 }
-.img-inicio{
-    top:86%;
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
-    background-color: #FFFFFF;
-    left: 130px;
-}
 .img-inicio img{
-    position: relative;
-    top: 17%;
-    background-color: #FFFFFF;
-    width: 35px;
-    left:20%;
+    position: absolute;
+    top: 69.5%;
+    left:-8%;
+    width: 40%;
 }
 .voltar{
     text-align: center;
-}
-.col-lg-auto img{
-    width: 72px;
-    height: 72px;
-    border-radius: 36px;
-    position:relative ;
-    margin-left: auto;
-    margin-right: 10px;
 }
