@@ -6,6 +6,7 @@ var tifo = document.getElementById("tifo");
 var variola = document.getElementById("variola");
 var repetir = document.getElementById("novamente");
 var repeat1 = document.getElementById("play1");
+var covid1 = docuument.getElementById("covid");
 
 covid.onended = event => {
     window.location = "fim.html"
@@ -24,4 +25,7 @@ tifo.onended = event => {
 }
 variola.onended = event => {
     window.location = "fim.html"
+}
+covid.onclick = event =>{
+    window.location = "covid.html"
 }

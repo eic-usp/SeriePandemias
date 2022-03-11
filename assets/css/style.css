@@ -115,7 +115,7 @@
    flex-wrap: wrap;
    justify-content: center;
    align-content: center;
-   margin-top:5.5em;
+   margin-top: 6em;
    position: absolute;
    
 }
@@ -125,8 +125,9 @@
     flex-shrink: 0;
 }
 .col-lg-4 img{
-    width: 100vh;
-    margin-left: -110px;
+    min-width: 100vh;
+    min-height: 50vh;
+    margin-left: -145px;
 }
 .titulo-10{
     background-color: transparent;
