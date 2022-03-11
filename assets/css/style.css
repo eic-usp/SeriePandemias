@@ -128,6 +128,7 @@
     min-width: 100vh;
     min-height: 50vh;
     margin-left: -145px;
+    margin-top: 90px;
 }
 .titulo-10{
     background-color: transparent;
@@ -135,8 +136,8 @@
     font-family: "Adumu";
     font-size: 4vh;
     text-decoration: none;
-    margin-top: 86vh;
-    margin-left: 100px;
+    margin-top: 75vh;
+    margin-left: 15px;
     position: absolute;
 }
 .titulo-11{
@@ -145,8 +146,8 @@
     font-family: "Adumu";
     font-size: 4vh;
     text-decoration: none;
-    margin-top: 80vh;
-    margin-left: 150px;
+    margin-top: 65vh;
+    margin-left: 180px;
     position: absolute;
 }
 .titulo-12{
@@ -155,26 +156,20 @@
     font-family: "Adumu";
     font-size: 4vh;
     text-decoration: none;
-    margin-top: 86vh;
-    left: 142vh;
+    margin-top: 75vh;
+    left: 120vh;
     position: absolute;
 }
 #img1{
-    width: 170px;
-    height: 170px;
-    margin-top: 15%;
-    margin-left:15%;
-    background-color: #FFFFFF;
-    border-radius: 20%;
+    width: 60em;
+    margin-top: 20%;
+    margin-left:1%;
     position: absolute;
 }
 #img3{
-    width: 250px;
-    height: 250px;
-    margin-top: 280px;
-    margin-left:-7%;
-    background-color: #FFFFFF;
-    border-radius: 50%;
+    width: 60em;
+    margin-top: 20.3%;
+    margin-left:0;
     position: absolute;
 }
 .menu-h{ /* img retorno menu */
@@ -184,21 +179,10 @@
     background-color: #FFFFFF;
     border-radius: 100%; 
 }
-.bkg1{
-    background-color: #FFFFFF;
-    height: 250px;
-    width:250px;
-    border-radius: 50%;
-    margin-top: 280px;
-    margin-left: 6%;
-   position: absolute;
-}
 #img2{
-    background-color: aquamarine;
-    border-radius: 200px;
-    width: 400px;
-    margin-top: 7%;
-    margin-left: 5%;
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 3%;
     position: absolute;
 }
 
@@ -220,3 +204,4 @@
 .voltar{
     text-align: center;
 }
+

@@ -23,6 +23,16 @@
         </div>
     </div>
 
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="col-fluid">
+                <button class="btn button-replay" id="Replay">
+                    <a class="titulo-9" href="colera.html">Assistir Novamente<img id="replay" src="/assets/img/replay.svg"></a>
+                </button>
+            </div>
+        </div>
+    </div>
+
     <div class="container">
         <div class="row">
             <div class="col">
@@ -36,16 +46,22 @@
 
     <!-------------------------------- HTML TAG VIDEO -------------------------------->
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col">
+    <div class="container">
+        <div class="row-fluid">
+            <div class="col-fluid">
                 <video class = "video play1" id="colera" width="100%" height="80%" autoplay>
                     <source src="/assets/videos/Pan5Colera.mp4" type="video/mp4">
                 </video>
             </div>
         </div>
     </div>    
-    <script src="/assets/js/media.js"></script>
+    <script >
+        var colera = document.getElementById("colera");
+        document.getElementById("Replay").disabled = true;
+        colera.onended = event => {
+    document.getElementById("Replay").disabled = false;
+}
+    </script>
     <script src="/assets/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
     <script src="/assets/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
 </body>
