@@ -81,6 +81,9 @@
     bottom: 1%;
     right: 10%;
 }
+
+/* ------------------------------------ ITENS MENU INICIAL ------------------------------------ */
+
 .titulo-5{ /* PANDEMIAS */
     margin-top: 0.7em;
     margin-bottom: 0.1em;
@@ -120,16 +123,19 @@
    
 }
 .col-lg-4{
-    height: 100px;
+    height: 15vh;
     flex-basis: auto;
     flex-shrink: 0;
 }
 .col-lg-4 img{
-    min-width: 100vh;
+    min-width: 65vw;
     min-height: 50vh;
-    margin-left: -145px;
-    margin-top: 90px;
+    margin-left: -50%;
+    margin-top: 20%;
 }
+
+/* ---------------------------------------------------------------------------------------- */
+
 .titulo-10{
     background-color: transparent;
     color: black;
