@@ -3,11 +3,12 @@
 
 
 .fundex{
-    background-image: url("/assets/img/Design - Pandemias.png");
+    background-image: url("/assets/img/fundo-globo.svg");
     background-color: #19BD9B;
     background-repeat: no-repeat;
-    background-size: 98vh;
-    background-position: 95% -2%;
+    background-size: 90vw;
+    background-position: 30% -5%;
+    overflow: hidden;
 }
 .fundo2{
     background-color: #19BD9B;
@@ -55,10 +56,10 @@
     color:aquamarine;
 }
 #logo-eic{
-    top:85%;
-    left:92%;
+    top:80%;
+    left:90%;
     position: absolute;
-    width: 70px;
+    width: 5.5vw;
 }
 #play{
     margin-top: 32.5%;
@@ -115,23 +116,72 @@
 .container1{
    display: flex;
    flex-direction: row;
-   flex-wrap: wrap;
    justify-content: center;
    align-content: center;
-   margin-top: 6em;
+   margin-top: 20%;
    position: absolute;
-   
+   width: 100vw;
+   height: auto;
+   overflow: hidden;
 }
-.col-lg-4{
+/*.col-lg-4{
     height: 15vh;
     flex-basis: auto;
     flex-shrink: 0;
 }
-.col-lg-4 img{
-    min-width: 65vw;
-    min-height: 50vh;
-    margin-left: -50%;
-    margin-top: 20%;
+*/
+.rowinit-covid{
+    height: 20vh;
+    background-size:cover !important;
+    background-position: bottom;
+    background: url("/assets/img/btn-covid.svg");
+}
+.rowinit-gripe{
+    height: 20vh;
+    background-size: cover !important;
+    background: url("/assets/img/btn-gripe.svg");
+}
+.rowinit-variola{
+    height: 20vh;
+    background-size: cover !important;
+    background: url("/assets/img/btn-variola.svg");
+    
+}
+.rowinit-peste{
+    height: 20vh;
+    background-size: cover !important;
+    background: url("/assets/img/btn-peste.svg");
+    
+}
+.rowinit-colera{
+    height: 20vh;
+    background-size: cover !important;
+    background: url("/assets/img/btn-colera.svg");
+    
+}
+.rowinit-tifo{
+    height: 20vh;
+    background-size: cover !important;
+    background: url("/assets/img/btn-tifo.svg");
+}
+.col-lg-4{
+    margin-left: -4.5vw ;
+    margin-right: -1vw;
+}
+.inicio{
+    top: 67%;
+    position: absolute;
+    color: #B3F2CB;
+    font-family: "Adumu";
+    padding-bottom: 10px;
+    left: 6vw;
+    font-size: 4.5vh;
+}
+.img-inicio img{
+    top: 30%;
+    left: -11vw ; 
+    position: absolute;
+    width: 40%;
 }
 
 /* ---------------------------------------------------------------------------------------- */
@@ -190,22 +240,6 @@
     margin-top: 5%;
     margin-left: 3%;
     position: absolute;
-}
-
-.inicio{
-    top: 80%;
-    position: absolute;
-    color: #B3F2CB;
-    font-family: "Adumu";
-    padding-bottom: 10px;
-    left: 125px;
-    font-size: 4.5vh;
-}
-.img-inicio img{
-    position: absolute;
-    top: 69.5%;
-    left:-8%;
-    width: 40%;
 }
 .voltar{
     text-align: center;
