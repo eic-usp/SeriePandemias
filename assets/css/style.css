@@ -1,6 +1,6 @@
 
 .fundex{
-    background-image: url("/assets/img/fundo-globo.svg");
+    background-image: url("assets/img/fundo-globo.svg");
     background-color: #19BD9B;
     background-repeat: no-repeat;
     background-size: 90vw;
@@ -131,35 +131,35 @@
     height: 20vh;
     background-size:cover !important;
     background-position: bottom;
-    background: url("/assets/img/btn-covid.svg");
+    background: url("assets/img/btn-covid.svg");
 }
 .rowinit-gripe{
     height: 20vh;
     background-size: cover !important;
-    background: url("/assets/img/btn-gripe.svg");
+    background: url("assets/img/btn-gripe.svg");
 }
 .rowinit-variola{
     height: 20vh;
     background-size: cover !important;
-    background: url("/assets/img/btn-variola.svg");
+    background: url("assets/img/btn-variola.svg");
     
 }
 .rowinit-peste{
     height: 20vh;
     background-size: cover !important;
-    background: url("/assets/img/btn-peste.svg");
+    background: url("assets/img/btn-peste.svg");
     
 }
 .rowinit-colera{
     height: 20vh;
     background-size: cover !important;
-    background: url("/assets/img/btn-colera.svg");
+    background: url("assets/img/btn-colera.svg");
     
 }
 .rowinit-tifo{
     height: 20vh;
     background-size: cover !important;
-    background: url("/assets/img/btn-tifo.svg");
+    background: url("assets/img/btn-tifo.svg");
 }
 .col-lg-4{
     margin-left: -4.5vw ;
