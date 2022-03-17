@@ -1,6 +1,3 @@
-@import url(//db.onlinewebfonts.com/c/08aae9f020949051ff8331be100607cb?family=Archive);
-@import url(//db.onlinewebfonts.com/c/6be8b78f5eaa571c3fbf3a1908515cf6?family=Adumu);
-
 
 .fundex{
     background-image: url("/assets/img/fundo-globo.svg");
@@ -27,7 +24,7 @@
     margin-top: 0.7em;
     margin-bottom: 0.1em;
     position: absolute;
-    font-family: "Adumu";
+    font-family: "adumuregular";
     font-style: normal;
     font-weight: normal;
     font-size: 17.5vh;
@@ -40,7 +37,7 @@
 }
 .titulo-2{
     color: #1e7a65;
-    font-family: "Adumu";
+    font-family: "adumuregular";
     font-size:5vh;
     margin-top:4em;
     position:absolute;
@@ -48,7 +45,7 @@
     margin-left: 35px;
 }
 .titulo-3{
-    font-family: "Adumu";
+    font-family: "adumuregular";
     font-size: 8vh;
     margin-top: 73vh;
     position: absolute;
@@ -70,7 +67,7 @@
 .titulo-4{ /* PULAR INTRODUÇÃO*/
     background-color: transparent;
     color: #1e7a65;
-    font-family: "Adumu";
+    font-family: "adumuregular";
     font-size: 4vh;
     position: relative;
     text-decoration: none;
@@ -89,7 +86,7 @@
     margin-top: 0.7em;
     margin-bottom: 0.1em;
     position: absolute;
-    font-family: "Adumu";
+    font-family: "adumuregular";
     font-style: normal;
     font-weight: normal;
     font-size: 18.5vh;
@@ -104,7 +101,7 @@
 }
 .titulo-6{
     left: 50%;
-    font-family: "Adumu";
+    font-family: "adumuregular";
     font-size: 5.9vh;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -172,7 +169,7 @@
     top: 67%;
     position: absolute;
     color: #B3F2CB;
-    font-family: "Adumu";
+    font-family: "adumuregular";
     padding-bottom: 10px;
     left: 6vw;
     font-size: 4.5vh;
@@ -189,7 +186,7 @@
 .titulo-10{
     background-color: transparent;
     color: black;
-    font-family: "Adumu";
+    font-family: "adumuregular";
     font-size: 4vh;
     text-decoration: none;
     margin-top: 75vh;
@@ -199,7 +196,7 @@
 .titulo-11{
     background-color: transparent;
     color: black;
-    font-family: "Adumu";
+    font-family:"adumuregular";
     font-size: 4vh;
     text-decoration: none;
     margin-top: 65vh;
@@ -209,7 +206,7 @@
 .titulo-12{
     background-color: transparent;
     color: black;
-    font-family: "Adumu";
+    font-family: "adumuregular";
     font-size: 4vh;
     text-decoration: none;
     margin-top: 75vh;

@@ -1,5 +1,5 @@
-@import url(//db.onlinewebfonts.com/c/08aae9f020949051ff8331be100607cb?family=Archive);
-@import url(//db.onlinewebfonts.com/c/6be8b78f5eaa571c3fbf3a1908515cf6?family=Adumu);
+
+
 *{
     background-color: #19BD9B;
     background-size: 100%;
@@ -34,13 +34,15 @@ body {
 /* ------------------------------------- PRÓXIMO VÍDEO ------------------------------------- */
 
 .button-next{
-    bottom: 1%;
-    right: 10%;
+    bottom: 2.5%;
+    right: 2vw;
+    padding-left: 2vw;
+    width: 30.666vw;
 }
 .titulo-7{
     background-color: transparent;
     color: #1e7a65;
-    font-family: "Adumu";
+    font-family:"adumuregular";
     font-size: 3vh;
     position: relative;
     text-decoration: none;
@@ -52,19 +54,21 @@ body {
     background-color: aquamarine;
     width: 10%; 
     height: 10%; 
-    padding-left: 2%; 
+    padding: 2%; 
 }
 
 /* ------------------------------------ RETORNO MENU INICIAL ------------------------------------ */
 
 .button-back{
-    bottom: 1%;  
-    left: 10%;
+    bottom: 2.5%;  
+    left: 2vw;
+    padding-right: 2vw;
+    width: 30.6666vw;
 }
 .titulo-8{
     background-color: transparent;
     color: #1e7a65;
-    font-family: "Adumu";
+    font-family:"adumuregular";
     font-size: 3vh;    
     position: relative;
     text-decoration: none;
@@ -76,18 +80,20 @@ body {
     background: #7fffd4;
     width: 10%; 
     height: 10%;
-    padding-right: 2%; 
+    padding: 2%; 
 }
 /* ------------------------------------ REPLAY ------------------------------------ */
 
 .button-replay{
-    bottom: 13%;
-    right: 35%;
+    bottom: 2.5%;
+    /*right: 35%;*/
+    width: 30.666vw;
+    left: 34.666vw;
 }
 .titulo-9{
     background-color: transparent;
     color: #1e7a65;
-    font-family: "Adumu";
+    font-family: "adumuregular";
     font-size: 3vh;
     position: relative;
     text-decoration: none;
@@ -98,5 +104,5 @@ body {
 #replay{
     background-color: aquamarine;
     width: 10%; 
-    padding-left: 2%; 
+    padding: 2%; 
 }
